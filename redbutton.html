@@ -1,0 +1,48 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Learning Javascript</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style type="text/css">
+
+#circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	font-weight:bold;
+	font-size:1.1em;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+background: #ff3019; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ff3019 0%, #cf0404 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ff3019 0%,#cf0404 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ff3019 0%,#cf0404 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+</style>  
+
+</head>
+
+<body>
+
+	<button id="circle">Don't press the red button!</button>
+	
+
+	<script type="text/javascript">
+
+	document.getElementById("circle").onclick=function() {
+	
+		document.getElementById("circle").style.display=("none");
+	
+	}
+
+	</script>
+
+</body>
+</html>
